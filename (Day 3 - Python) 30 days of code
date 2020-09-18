@@ -14,7 +14,7 @@ if __name__ == '__main__':
         if N in range(6,20):
             print ("Weird")
 
-        if N > 20:
+        if N >= 20:
             print("Not Weird")
         
     else:
