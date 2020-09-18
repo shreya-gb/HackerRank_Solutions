@@ -15,10 +15,10 @@ if __name__ == '__main__':
         if N in range(2,5):                              # Inclusive = include 2,5
             print("Not Weird")
 
-        if N in range(6,21):
+        if N in range(6,21):                             # 20 = Weird
             print ("Weird")
 
-        if N > 20:                                       # ( >= ) include 20
+        if N > 21:                                       # 21 onwards = Not Weird          
             print("Not Weird")
 
     else:
